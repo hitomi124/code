@@ -1,0 +1,149 @@
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Message for you^^</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="wrapper">
+  <h2 class="question">Are you okay?</h2>
+  <img class="gif" alt="gif"
+src="https://raw.githubusercontent.com/DzarelDeveloper/Img/main/gifyou.webp">
+   <div class="btn-group"> <button class="yes-btn">Yes</button> <button class="no-
+btn">No</button>
+   </div>
+  </div>
+  <script src="script.js"></script>
+ </body>
+</html>
+
+
+
+--------------------------------------------------------------------------------------
+
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title> Happy Birthday</title>
+  <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+  <div class="card">
+   <img src="https://github.com/DzarelDeveloper/Img/blob/main/ulangtahun.jpg?raw=true"
+alt="birthday" class+"birthday">
+   <div class="text">
+    <h1>Hi Ariana!!</h1>
+    <p> Happy Special Birthday!! Today is the day to celebrate your extraordinary existence.
+In the journey of life, I am grateful to have you by my side.
+<br><br>
+Between s eas, galaxies, and moons, I was lucky I stepped on the same land, i dreamed under the same stars as you. 
+<br><br>
+We've traversed oceans of memories, ventured through galaxies of experiences, and basked beneath the beauty of moons together. I feel incredibly fortunate to share unforgettable adventures with you.
+<br><br>
+May this year be a  chapter filled with happiness, success, and love. Thank you for being part of my life's story. Happy Brithday, and may each of your days be filled with extraordinary joy and achievements!! 🎉🎁🎂</p>
+     
+     <p c;ass="muted">- Name -</p>
+    </div>
+    <div class="space"></div>
+    <audio controls autoplay>
+     <source src="hbd.mp3" type="audio/mp3">
+    </audio>
+    <script src="script.js"></script>
+   </div>
+  </body>
+ </html>
+
+-------------------------------------------------------------------------------------------------------------------------
+
+import turtle
+t = turtle.Turtle()
+t.pensize (10)
+
+turtle.bgcolor("black")
+
+def go(x,y):
+    t.penup()
+    t.goto(x,y)
+    t.pendown()
+
+t.pencolor("#008000")
+t.fillcolor("#00FF00")
+
+go(0, -250)
+t.seth(90)
+
+t.begin_fill()
+t.circle(200, 70)
+t.circle(-200, 45)
+t.seth(270)
+t.circle(298, 80)
+t.end_fill()
+
+go(0, -250)
+
+t.begin_fill()
+t.seth(90)
+t.circle(-200, 70)
+t.circle(200, 45)
+t.seth(270)
+t.circle(-298, 80)
+t.end_fill()
+
+go(-10, -190)
+
+t.begin_fill()
+t.seth(90)
+t.goto(-10, 70)
+t.seth(0)
+t.goto(10, 70)
+t.seth(270)
+t.goto(10, -190)
+t.goto(0, -225)
+t.goto(-10, -190)
+t.end_fill()
+
+t.pencolor("#Ff0000")
+t.fillcolor("#d35d56")
+
+t.seth(90)
+go(-80, 270)
+t.begin_fill()
+t.circle(-120, 45)
+t.seth(320)
+t.circle(-120, 45)
+t.end_fill()
+
+t.seth(90)
+go(-45, 270)
+t.begin_fill()
+t.circle(-120, 45)
+t.seth(320)
+t.circle(-120, 45)
+t.goto(30, 220)
+t.end_fill()
+
+t.seth(0)
+go(-10, 70)
+t.begin_fill()
+t.goto(15, 70)
+t.circle(71, 80)
+t.seth(80)
+t.circle(400, 33)
+t.seth(225)
+t.circle(300, 25)
+t.end_fill()
+
+t.seth(0)
+go(-10, 70)
+t.begin_fill()
+t.circle(20, 40)
+t.circle(60, 50)
+t.seth(90)
+t.circle(300, 50)
+t.seth(250)
+t.circle(400, 33)
+t.circle(71, 90)
+t.end_fill()
+
+t.hideturtle()
